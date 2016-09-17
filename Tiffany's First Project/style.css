@@ -1,0 +1,39 @@
+body {
+	background-color: 999999;
+	color: #333333;
+	font-family: Helvetica;
+	margin: 30px;
+	border: 5px solid #D3D3D3;
+	padding: 100px;
+	background-image: url("donuts.jpg");
+	
+}
+
+header {
+	background-color: #f1f1f1;
+	padding: 20px 30px 20px 30px;
+}
+
+h1 {
+	letter-spacing: 10px;
+	font-size: 120;
+}
+
+h2 {
+	letter-spacing: -1px;
+	font-weight: normal;
+}
+nav {
+	background-color: #333333;
+	color: white; padding: 20px 30px 20px 30px;
+	text-align:center;
+}
+
+h3 {
+	font-size: 110;
+}
+
+section {
+	background-color: #f1f1f1;
+	padding: 20px 30px 20px 30px;
+}
