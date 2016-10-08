@@ -1,0 +1,132 @@
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 27px;
+	margin: 0px 0px 0px 40px;
+}
+
+ul {
+	background: white;
+	padding: 20px;
+	list-style-type: inherit;
+}
+
+li { 
+padding-left: 16px;
+padding-bottom: 2px;
+color: #033048;
+ }
+
+#container {
+	background-color: #F5F5F5;
+}
+
+#heroImage {
+	padding: 50px;
+	background: url("../images/header_bg.jpg") no-repeat;
+	background-size: cover;
+	color: #f0efef;
+	margin: 10px 200px 0px 200px;
+}
+
+#benefits {
+	color: #033048;
+	margin: 0px 200px 0px 200px;
+	padding: 20px 300px 20px 150px;
+	background-color: white;
+}
+
+#testimonials {
+	background: url("../images/testimonial_bg.jpg") no-repeat;
+	background-size: cover;
+	margin: 0px 200px 0px 200px;
+	color: #f0efef;
+	padding: 50px 200px 20px 200px;
+	font-size: 18px;
+}
+
+#signUp {
+	height: 70px;
+	background-color: #f9e42e;
+	border: solid 1px #f9e42e;
+	margin: 0px 200px 0px 200px;
+}
+
+#footer {
+	height: 100px;
+	background-color: #121212;
+	margin: 0px 200px 0px 200px;
+	text-align: center;
+	padding: 30px;
+}
+
+.primaryButton {
+	background-color: #f9e42e;
+	padding: 5px 35px 5px 35px;
+	border: solid 1px #f9e42e;
+	border-radius: 5px;
+	color: #033048;
+	font-weight: bolder;
+	font-size: 14px;
+	margin: 0% 37% 0% 41%;
+}
+
+.centerText {
+	text-align: center;
+	font-weight: 800;
+	font-size: 24px;
+	margin: 80px;
+}
+
+.lightText {
+	font-weight: lighter;
+	font-size: 13;
+}
+
+.benefits {
+	font-weight: 800;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+.quoteText {
+	font-style: italic;
+	font-weight: 100;
+}
+
+.byline {
+	font-weight: 800;
+	font-style: normal;
+	padding-top: 10px;
+	padding-left: 20%;
+}
+
+.signUpButton {
+	border: solid 1px #033048;
+	background-color: #033048;
+	padding: 5px 35px 8px 35px;
+	border-radius: 5px;
+	margin: 2% 30% 0% 42%;
+	color: #f0efef;
+	font-weight: 900;
+	font-size: 12px;
+}
+
+.footerLogo {
+	color: #f9e42e;
+	font-weight: 900;
+	font-size: 24px;
+	padding-bottom: 20px;
+}
+
+.copyrightText {
+	font-size: 9px;
+	font-weight: 300;
+	color: #f0efef;
+	padding-top: 20px;
+}
