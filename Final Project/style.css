@@ -1,46 +1,44 @@
 
 body {
 	font-family: 'Amiko', sans-serif;
+  color: #000000;
 }
 
-.capitalize {
-  text-transform: uppercase;
-  font-weight: 300;
-  letter-spacing: 0.5pt;
+body, html {
+    height: 100%;
 }
 
-#city-type {
-  color: #6b6b6c;
-  font-size: 38px;
-  background: #fff;
-  border: 1px solid #111;
-  padding: 0px 30px;
-  display: inline-block;
-  width: 680px;
-  margin-right: 24px;
-  font-family: helvetica, arial, sans-serif;
-  height: 72px;
-  line-height: 74px;
-  vertical-align: middle;
-  box-shadow: #111 0 0 20px;
+#about {
+    height:300px;
+    background: rgba(255,255,255,0.3);
+    text-align: center; padding: 40px 100px 40px 100px;
 }
-#submit-btn {
-  background: #ffe500;
-  color: #000;
-  font-size: 38px;
-  font-weight: bold;
-  text-transform: uppercase;
-  border: 1px solid #111;
-  text-align: center;
-  display: inline-block;
-  width: 250px;
-  height: 72px;
-  line-height: 74px;
-  vertical-align: middle;
-  box-shadow: #111 0 0 50px;
-  font-family: helvetica, arial, sans-serif;
-  cursor: pointer;
+
+#playlist {
+  border: 1px solid red;
+  height:300px;
+  background: rgba(255,255,255,0.3);
+  padding: 50px;
 }
-#submit-btn:hover {
-  background: #fff600;
+
+#contact {
+  height:300px;
+  background: rgba(255,255,255,0.3);
+  padding: 50px;
 }
+
+.parallax {
+    /* The image used */
+    background-image: url('boardWalkOverWater.jpg');
+
+    /* Full height */
+    height: 200px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+

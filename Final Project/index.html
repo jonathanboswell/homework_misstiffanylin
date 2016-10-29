@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Work It Music</title>
 <link href="reset.css" rel="stylesheet"> 
 <link href="style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link href="https://fonts.googleapis.com/css?family=Amiko" rel="stylesheet"></link>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 
@@ -12,23 +14,45 @@
 
 <body>
 
-<!-- nav -->
-<header>
-<h1 class='capitalize'>Work It! Music</h1>
-<p>Playlists for every type of work mood.</p>
-</header>
-<!-- /nav -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span> 
+	      </button>
+      <a class="navbar-brand" href="#">Work It! Music</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+	    <ul class="nav navbar-nav navbar-right">
+	      <li class="active"><a href="#about">About</a></li>
+	      <li><a href="#playlist">Playlists</a></li> 
+	      <li><a href="#contact">Contact</a></li> 
+	    </ul>
+	  </div>
+	 </div>
+</nav>
 
+<div class="parallax"></div>
 
-<div class="container">
-				<form>
-					<select id="mood-type">
-						<option>What's Your Current Mood?</option>
-					</select>
-				</form>
-			</div>
-		<script src="index.js"></script>
+<div id="about">
+		<h1>Playlists for every work mood.</h1>
+		<h1><small>Bored at work? There's a playlist for that. Co-worker piss you off? There's a playlist for that. No matter what your current mood, we have the tunes to help you focus. So hit the "play" button and slay the day like the boss you are.</small></h1>
+</div>
 
+<div class="parallax"></div>
 
+<div id="playlist">
+My playlist
+</div>
+
+<div class="parallax"></div>
+
+<div id="contact">
+Contact me
+</div>
+
+<script src="index.js"></script>
 </body>
 </html>
