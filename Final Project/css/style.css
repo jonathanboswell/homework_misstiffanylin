@@ -23,7 +23,7 @@ body, html {
   color: #d3d3d3;
   padding: 40px;
   text-align: center;
-  background-image: url(../images/purpleGreyWallpaper.jpg);
+  background-image: url(../images/darkBackgroundFinal.jpg);
 
 }
 
@@ -108,6 +108,8 @@ body, html {
   color: #ffffff;
   height: 50px;
   padding-top: 15px;
+  background-image: url(../images/darkBackgroundFinal.jpg);
+
 }
 
 .hiddenPlaylist {
